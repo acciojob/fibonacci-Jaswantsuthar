@@ -5,8 +5,9 @@ function fibonacci(num) {
 			num=n1+n2;
 			n1=n2;
 			n2=num;
+		
 	}
-	return num;
+
 }
 
 module.exports = fibonacci;
